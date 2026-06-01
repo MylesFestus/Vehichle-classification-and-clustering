@@ -2,7 +2,6 @@
 
 > Machine learning pipeline for classifying vehicles as **car**, **bus**, or **van** from 18 silhouette-based shape features.  
 > End-to-end Macro F1 (test set): **0.9275**
-
 ---
 
 ## Table of Contents
@@ -22,7 +21,6 @@
 8. [How to Run](#8-how-to-run)
 9. [Dependencies](#9-dependencies)
 10. [Project Structure](#10-project-structure)
-
 ---
 
 ## 1. Project Overview
@@ -41,7 +39,7 @@ Stage 2:  bus  vs  van       →  bus or van → done
 
 This approach simplifies each decision boundary, handles class imbalance at each stage independently, and consistently outperforms single-step multi-class baselines on this dataset.
 
-A complementary **unsupervised component** (PCA + K-Means) validates that the natural feature-space structure of the data aligns with the three labelled classes.
+A complementary **unsupervised component** (PCA + K-Means) validates that the natural feature-space structure of the data aligns with the three labelled classs.
 
 ---
 
